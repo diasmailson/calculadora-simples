@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Calculadora</title>
 </head>
 <body>
@@ -12,15 +13,20 @@
   </header>
 
   <form action="">
-    <input type="number" name="firstNumber" id="firstNumber" placeholder="Digite o primeiro número">
+    <input type="number" name="firstNumber" id="firstNumber" placeholder="Digite o primeiro número"> 
     <select name="operations" id="operations">
       <option value="+">+</option>
       <option value="-">-</option>
-      <option value="-">-</option>
-      <option value="*">*</option>
+      <option value="-">*</option>
+      <option value="*">/</option>
     </select>
     <input type="number" name="secondNumber" id="secondNumber" placeholder="Digite o segundo número">
     <button type="submit">CALCULAR</button>
   </form>
+  <div>
+    <h3 id="resultado"></h3>
+  </div>
+
+  <footer> <p>Feito por Mailson Dias - Mar/2022</footer>
 </body>
 </html>
