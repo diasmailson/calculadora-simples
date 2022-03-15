@@ -9,7 +9,7 @@ h1 {
   font-family: 'Roboto Mono', monospace;
 }
 
-form {
+#form {
   width: 40%;
 }
 
@@ -51,4 +51,11 @@ h3 {
 
 p {
   font-family: 'Roboto Mono', monospace;
+}
+
+footer {
+  padding-bottom: 0px;
+  position:fixed;
+  bottom:0;
+  width:100%;
 }
